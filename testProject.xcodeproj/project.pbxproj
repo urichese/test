@@ -13,6 +13,11 @@
 		CB7B8C562909754D009F528F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB7B8C542909754D009F528F /* Main.storyboard */; };
 		CB7B8C582909754F009F528F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB7B8C572909754F009F528F /* Assets.xcassets */; };
 		CB7B8C5B2909754F009F528F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB7B8C592909754F009F528F /* LaunchScreen.storyboard */; };
+		CB7B8C63290975F4009F528F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B8C62290975F4009F528F /* User.swift */; };
+		CB7B8C652909762F009F528F /* Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B8C642909762F009F528F /* Child.swift */; };
+		CB7B8C6829099C76009F528F /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B8C6729099C76009F528F /* Constraints.swift */; };
+		CB7B8C6A2909A073009F528F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B8C692909A073009F528F /* Constants.swift */; };
+		CB7B8C6C2909CFA2009F528F /* ChildTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B8C6B2909CFA2009F528F /* ChildTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		CB7B8C572909754F009F528F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB7B8C5A2909754F009F528F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB7B8C5C2909754F009F528F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB7B8C62290975F4009F528F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CB7B8C642909762F009F528F /* Child.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Child.swift; sourceTree = "<group>"; };
+		CB7B8C6729099C76009F528F /* Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constraints.swift; sourceTree = "<group>"; };
+		CB7B8C692909A073009F528F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CB7B8C6B2909CFA2009F528F /* ChildTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 		CB7B8C4D2909754D009F528F /* testProject */ = {
 			isa = PBXGroup;
 			children = (
+				CB7B8C6629097647009F528F /* Model */,
 				CB7B8C4E2909754D009F528F /* AppDelegate.swift */,
 				CB7B8C502909754D009F528F /* SceneDelegate.swift */,
 				CB7B8C522909754D009F528F /* ViewController.swift */,
@@ -63,8 +74,20 @@
 				CB7B8C572909754F009F528F /* Assets.xcassets */,
 				CB7B8C592909754F009F528F /* LaunchScreen.storyboard */,
 				CB7B8C5C2909754F009F528F /* Info.plist */,
+				CB7B8C6729099C76009F528F /* Constraints.swift */,
+				CB7B8C692909A073009F528F /* Constants.swift */,
 			);
 			path = testProject;
+			sourceTree = "<group>";
+		};
+		CB7B8C6629097647009F528F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CB7B8C62290975F4009F528F /* User.swift */,
+				CB7B8C642909762F009F528F /* Child.swift */,
+				CB7B8C6B2909CFA2009F528F /* ChildTableViewCell.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +161,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB7B8C63290975F4009F528F /* User.swift in Sources */,
 				CB7B8C532909754D009F528F /* ViewController.swift in Sources */,
+				CB7B8C6C2909CFA2009F528F /* ChildTableViewCell.swift in Sources */,
 				CB7B8C4F2909754D009F528F /* AppDelegate.swift in Sources */,
+				CB7B8C652909762F009F528F /* Child.swift in Sources */,
+				CB7B8C6A2909A073009F528F /* Constants.swift in Sources */,
+				CB7B8C6829099C76009F528F /* Constraints.swift in Sources */,
 				CB7B8C512909754D009F528F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
